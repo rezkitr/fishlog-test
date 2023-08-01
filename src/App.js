@@ -1,14 +1,13 @@
-import Banner from "./components/Banner";
-import InfoSection from "./components/InfoSection";
+import { HeaderSection, InfoSection } from "./components";
 
 const App = () => {
     return (
         <div className="h-screen">
-            <div className="banner-section">
-                <Banner />
+            <div className="header-section">
+                <HeaderSection />
             </div>
             <div className="info-section">
-              <InfoSection />
+                <InfoSection />
             </div>
         </div>
     );
