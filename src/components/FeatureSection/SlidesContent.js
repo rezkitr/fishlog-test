@@ -3,10 +3,10 @@ import SlideItem from "./SlideItem";
 
 const SlidesContent = () => {
     return (
-        <div className="w-[610px] h-full absolute left-0 z-10 flex items-center">
+        <div className="w-[48%] 2xl:w-[43%] h-full absolute left-0 z-10 flex items-center">
             <div className="w-full relative overflow-hidden">
-                <div className="relative w-[850px]">
-                    <CarouselWrapper centerMode centerSlidePercentage={43}>
+                <div className="relative right-8 w-[1000px] lg:">
+                    <CarouselWrapper centerMode centerSlidePercentage={37}>
                         <SlideItem
                             title="Business partners management"
                             iconClass="fa-user-circle"

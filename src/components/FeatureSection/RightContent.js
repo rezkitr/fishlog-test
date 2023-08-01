@@ -1,7 +1,7 @@
 const RightContent = () => {
     return (
-        <div className="bg-main-blue text-white rounded-l-lg w-2/3 h-[500px] relative">
-            <div className="w-[600px] absolute right-9 top-20">
+        <div className="bg-main-blue text-white rounded-l-lg w-2/3 h-[500px] pl-[270px] pt-[80px] pr-6 relative">
+            <div>
                 <h1 className="font-black text-4xl mb-6">
                     FishLog Ecosystem Partners Benefits
                 </h1>
