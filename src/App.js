@@ -1,12 +1,14 @@
 import Banner from "./components/Banner";
-import Navbar from "./components/Navbar";
+import InfoSection from "./components/InfoSection";
 
 const App = () => {
     return (
         <div className="h-screen">
-            <div className="banner-section relative">
-                <Navbar />
+            <div className="banner-section">
                 <Banner />
+            </div>
+            <div className="info-section">
+              <InfoSection />
             </div>
         </div>
     );
