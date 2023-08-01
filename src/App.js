@@ -3,6 +3,7 @@ import {
     InfoSection,
     FeatureSection,
     StatisticSection,
+    CompanionSection
 } from "./components";
 
 const App = () => {
@@ -19,6 +20,9 @@ const App = () => {
             </div>
             <div className="statistic-section">
                 <StatisticSection />
+            </div>
+            <div className="companion-section">
+                <CompanionSection />
             </div>
         </div>
     );

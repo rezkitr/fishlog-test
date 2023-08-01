@@ -2,7 +2,7 @@ import LanguageBtn from "./LanguageBtn";
 
 const Navbar = () => {
     return (
-        <div className="flex items-center justify-between px-24 py-6 text-white font-semibold absolute top-0 left-0 right-0 z-10">
+        <div className="flex items-center justify-between px-28 py-6 text-white font-semibold absolute top-0 left-0 right-0 z-10">
             <div>
                 <img src="https://fishlog.co.id/_next/static/images/whitelogo-401cd74af6ede4a7c237b29591e9319f.png" alt="logo" width={120} />
             </div>
