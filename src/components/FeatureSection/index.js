@@ -3,7 +3,7 @@ import SlidesContent from "./SlidesContent";
 
 const FeatureSection = () => {
     return (
-        <div className="mt-14 mb-10 px-4 relative flex justify-end">
+        <div className="mt-14 mb-12 px-4 relative flex justify-end">
             <SlidesContent />
             <RightContent />
         </div>
