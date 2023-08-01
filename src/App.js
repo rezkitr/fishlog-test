@@ -1,4 +1,4 @@
-import { HeaderSection, InfoSection } from "./components";
+import { HeaderSection, InfoSection, FeatureSection } from "./components";
 
 const App = () => {
     return (
@@ -8,6 +8,9 @@ const App = () => {
             </div>
             <div className="info-section">
                 <InfoSection />
+            </div>
+            <div className="feature-section">
+                <FeatureSection />
             </div>
         </div>
     );

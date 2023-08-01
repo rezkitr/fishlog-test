@@ -3,7 +3,7 @@ import InfoCard from "./InfoCard";
 const InfoSection = () => {
     return (
         <div className="px-24 py-12 flex flex-col items-center justify-center">
-            <h1 className="text-4xl font-bold text-center">
+            <h1 className="text-4xl font-black text-center">
                 Strengthening the Fisheries Supply
                 <br />
                 Chain, together
